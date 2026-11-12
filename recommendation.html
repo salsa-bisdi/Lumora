@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f1e8">
+<title>Konsultasi Aroma — PAUSE Home Fragrance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="recommendation.css"></head>
+<body><div class="announcement">SLOW DOWN, BREATHE IN <span>✦</span> TAKE A MOMENT, JUST PAUSE</div>
+<header class="header"><a class="brand" href="index.html"><img src="assets/pause-logo.png" onerror="this.style.display='none'" alt=""><span>PAUSE<small>HOME FRAGRANCE</small></span></a><button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button><nav class="nav"><a href="index.html#story">Our Story</a><a href="shop.html">Shop</a><a href="index.html#stories">Testimonials</a><a href="index.html#contact">Contact</a></nav></header>
+<main><section class="recommend-hero"><p class="eyebrow">A PERSONAL SCENT GUIDE</p><h1>Find a scent<br><em>that feels like you.</em></h1><p>Ceritakan suasana yang kamu cari. Tim PAUSE akan membantu merekomendasikan aroma atau mendiskusikan pesanan khusus melalui WhatsApp.</p></section>
+<section class="recommend-wrap"><form class="recommend-form" id="recommend-form">
+<p class="eyebrow">LET'S GET TO KNOW YOUR PREFERENCE</p>
+<label>Nama kamu<input name="name" required autocomplete="name" placeholder="Nama lengkap"></label>
+<label>Nomor WhatsApp<input name="phone" required type="tel" autocomplete="tel" placeholder="08xxxxxxxxxx"></label>
+<label>Kamu membutuhkan apa?<select name="need" required><option value="">Pilih kebutuhan</option><option>Rekomendasi aroma</option><option>Pesanan khusus / custom order</option><option>Ingin bertanya tentang produk</option><option>Hadiah untuk seseorang</option></select></label>
+<label>Suasana atau karakter aroma yang kamu sukai<select name="scent"><option value="">Belum tahu, mohon rekomendasikan</option><option>Fresh dan clean</option><option>Floral dan soft</option><option>Warm, sweet, dan cozy</option><option>Woody dan earthy</option><option>Calm dan relaxing</option></select></label>
+<label>Untuk ruangan / momen apa?<input name="occasion" placeholder="Contoh: kamar tidur, ruang kerja, hadiah"></label>
+<label>Budget perkiraan (opsional)<select name="budget"><option value="">Belum ditentukan</option><option>Di bawah Rp100.000</option><option>Rp100.000–Rp200.000</option><option>Rp200.000–Rp300.000</option><option>Di atas Rp300.000</option></select></label>
+<label>Ceritakan kebutuhanmu<textarea name="details" rows="4" placeholder="Tulis preferensi, jumlah, request custom, atau pertanyaan lainnya…"></textarea></label>
+<button class="btn dark" type="submit">Kirim konsultasi via WhatsApp ↗</button>
+<p class="recommend-note" id="recommend-status" role="status">Form ini untuk konsultasi dan permintaan khusus, bukan checkout produk katalog.</p>
+</form><aside class="recommend-aside"><p class="eyebrow">A LITTLE NOTE</p><h2>No need to know it all.</h2><p>Kalau kamu belum tahu aroma yang cocok, tidak apa-apa. Ceritakan suasana yang ingin kamu hadirkan, dan kami bantu mulai dari sana.</p><a class="text-link" href="shop.html">Sudah tahu produk pilihanmu? Lihat katalog →</a></aside></section></main>
+<footer><a class="brand" href="index.html"><img src="assets/pause-logo.png" onerror="this.style.display='none'" alt=""><span>PAUSE<small>HOME FRAGRANCE</small></span></a><p>Take a moment, just pause.</p><small>© <span id="year"></span> PAUSE. All rights reserved.</small></footer>
+<a class="floating-wa" id="floating-wa" href="#" aria-label="Chat WhatsApp">WA</a><script src="script.js"></script><script src="recommendation.js"></script></body></html>
